@@ -1,0 +1,60 @@
+/* Add your styling here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+nav,
+section,
+footer {
+  margin: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+section {
+  margin-top: 30px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+.menu-category {
+  margin-top: 20px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.menu-item img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 10px;
+}
+
+.menu-item h4 {
+  margin: 0;
+}
+
+.menu-item span {
+  font-weight: bold;
+}
